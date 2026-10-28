@@ -40,7 +40,7 @@ jobs:
   #    Si encuentra vulnerabilidades HIGH o superiores, el job falla
   #    y se bloquean los jobs siguientes (imagen y despliegue).
   # ---------------------------------------------------------------
-    security:
+  security:
     name: Análisis de seguridad (Snyk)
     runs-on: ubuntu-latest
     needs: test
