@@ -79,7 +79,7 @@ curl http://localhost:9004/
 docker compose down -v
 ```
 
-8. Uso de Inteligencia Artificial
+## 8. Uso de Inteligencia Artificial
 
    
 Se utilizó Claude (Anthropic) como herramienta de asistencia técnica para:
@@ -91,7 +91,7 @@ Todo el contenido generado fue iterado, probado localmente y ajustado por el equ
 Cita: Anthropic. (2026). Claude Sonnet 5.5 [Modelo de lenguaje de gran tamaño]. https://claude.ai
 
 
-9. Conclusiones
+## 9. Conclusiones
 
 
 Kenyer Sandoval
