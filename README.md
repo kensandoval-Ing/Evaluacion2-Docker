@@ -78,7 +78,10 @@ curl http://localhost:9004/
 
 docker compose down -v
 ```
+
 8. Uso de Inteligencia Artificial
+
+   
 Se utilizó Claude (Anthropic) como herramienta de asistencia técnica para:
 Generar la estructura base del Dockerfile, docker-compose.yml, el flujo de GitHub Actions y la configuración de dependabot.yml.
 Orientar las políticas de Snyk, gestión de secretos y protección de ramas.
@@ -87,7 +90,10 @@ Todo el contenido generado fue iterado, probado localmente y ajustado por el equ
 
 Cita: Anthropic. (2026). Claude Sonnet 5.5 [Modelo de lenguaje de gran tamaño]. https://claude.ai
 
+
 9. Conclusiones
+
+
 Kenyer Sandoval
 La implementación de este pipeline CI/CD demostró la importancia crítica de adoptar una cultura DevSecOps. Automatizar las pruebas unitarias y el análisis de vulnerabilidades con Snyk desde las primeras etapas del desarrollo no solo evita que el código defectuoso llegue a producción, sino que también agiliza el trabajo del equipo. Hemos logrado un flujo continuo donde cada cambio se valida automáticamente, dándonos la confianza de que el microservicio mantendrá su estabilidad y seguridad de forma constante.
 
