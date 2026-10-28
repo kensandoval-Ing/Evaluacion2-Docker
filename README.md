@@ -79,7 +79,7 @@ curl http://localhost:9004/
 docker compose down -v
 ```
 
-8. Uso de Inteligencia Artificial
+## 8. Uso de Inteligencia Artificial
 
    
 Se utilizó Claude (Anthropic) como herramienta de asistencia técnica para:
@@ -91,11 +91,12 @@ Todo el contenido generado fue iterado, probado localmente y ajustado por el equ
 Cita: Anthropic. (2026). Claude Sonnet 5.5 [Modelo de lenguaje de gran tamaño]. https://claude.ai
 
 
-9. Conclusiones
+## 9. Conclusiones
 
 
-Kenyer Sandoval
-La implementación de este pipeline CI/CD demostró la importancia crítica de adoptar una cultura DevSecOps. Automatizar las pruebas unitarias y el análisis de vulnerabilidades con Snyk desde las primeras etapas del desarrollo no solo evita que el código defectuoso llegue a producción, sino que también agiliza el trabajo del equipo. Hemos logrado un flujo continuo donde cada cambio se valida automáticamente, dándonos la confianza de que el microservicio mantendrá su estabilidad y seguridad de forma constante.
+### Kenyer Sandoval
+Sinceramente, la evaluación tuvo sus momentos tensos, sobre todo cuando los pipelines fallaban por detalles en el umbral de cobertura o en los permisos de GitHub. Sin embargo, fue una experiencia muy enriquecedora porque pasamos de compilar todo a mano a construir un flujo automatizado real. Aprender a integrar los análisis de seguridad y entender cómo se conectan los contenedores de forma autónoma nos dio una visión muy clara de lo que se exige en el mundo laboral hoy en día. Fue un esfuerzo grande y con su buena curva de aprendizaje, pero ver todos los checks en verde al final fue súper gratificante.
 
-Javier Valenzuela
-Diseñar esta arquitectura de integración y despliegue reafirmó el valor de aplicar metodologías de ingeniería estructuradas al ciclo de vida del software. Lograr que los contenedores, los escaneos de seguridad y la orquestación funcionen de forma autónoma y cohesionada en GitHub Actions elimina los cuellos de botella manuales. Además, asegurar la tolerancia a fallos mediante healthchecks y políticas estrictas de PR en la rama principal asegura que cada versión desplegada cumpla con estándares de calidad a nivel profesional.
+### Javier Valenzuela
+Para mí, esta evaluación fue un gran desafío práctico, especialmente al tratar de avanzar en el proyecto y coordinar las entregas mientras cuadraba los tiempos con mis turnos de trabajo los fines de semana. Ver cómo finalmente todo el código se prueba y despliega de forma automática te cambia por completo la perspectiva. Tratamos de abordar los problemas de frente y de la forma más natural posible; ir paso a paso y aplicar una metodología ordenada ayudó bastante a que configurar la red, Docker y Snyk no se volviera un dolor de cabeza. Al final, logramos armar algo bastante sólido y funcional.
+
